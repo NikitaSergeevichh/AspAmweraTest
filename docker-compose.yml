@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  aspamweratest:
+    image: ${DOCKER_REGISTRY-}aspamweratest
+    build:
+      context: .
+      dockerfile: AspAmweraTest/Dockerfile
